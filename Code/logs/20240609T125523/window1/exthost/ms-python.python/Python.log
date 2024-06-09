@@ -1,0 +1,36 @@
+2024-06-09 12:55:59.496 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-06-09 12:55:59.496 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-06-09 12:55:59.496 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-06-09 12:55:59.496 [info] Experiment 'pythonTestAdapter' is active
+2024-06-09 12:55:59.552 [info] Default formatter is set to null for workspace /home/galjeza/Downloads
+2024-06-09 12:55:59.565 [info] Starting Environment refresh
+2024-06-09 12:55:59.565 [info] Searching for interpreters in posix paths locator
+2024-06-09 12:55:59.572 [info] Searching for pyenv environments
+2024-06-09 12:55:59.572 [info] Searching for conda environments
+2024-06-09 12:55:59.573 [info] Searching for global virtual environments
+2024-06-09 12:55:59.573 [info] Searching for custom virtual environments
+2024-06-09 12:55:59.581 [info] pyenv is not installed
+2024-06-09 12:55:59.581 [info] Finished searching for pyenv environments: 14 milliseconds
+2024-06-09 12:55:59.581 [info] Finished searching for custom virtual envs: 13 milliseconds
+2024-06-09 12:55:59.588 [info] > conda info --json
+2024-06-09 12:55:59.597 [info] > hatch env show --json
+2024-06-09 12:55:59.597 [info] cwd: .
+2024-06-09 12:55:59.606 [info] > pyenv which python
+2024-06-09 12:55:59.606 [info] cwd: .
+2024-06-09 12:55:59.611 [info] Finished searching for global virtual envs: 43 milliseconds
+2024-06-09 12:55:59.615 [info] > /usr/share/anaconda/bin/conda info --json
+2024-06-09 12:55:59.623 [info] Found: /bin/python --> /bin/python3.12
+2024-06-09 12:55:59.625 [info] Found: /bin/python3 --> /bin/python3.12
+2024-06-09 12:55:59.625 [info] Found: /bin/python3.12 --> /bin/python3.12
+2024-06-09 12:56:00.272 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2024-06-09 12:56:00.273 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2024-06-09 12:56:00.274 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2024-06-09 12:56:00.306 [info] Finished searching for interpreters in posix paths locator: 740 milliseconds
+2024-06-09 12:56:00.306 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2024.8.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.8.0/python_files/interpreterInfo.py
+2024-06-09 12:56:00.316 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2024.8.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.8.0/python_files/interpreterInfo.py
+2024-06-09 12:56:00.316 [info] Environments refresh paths discovered (event): 754 milliseconds
+2024-06-09 12:56:00.316 [info] Environments refresh paths discovered: 754 milliseconds
+2024-06-09 12:56:00.364 [info] Environments refresh finished (event): 802 milliseconds
+2024-06-09 12:56:00.374 [info] Environment refresh took 813 milliseconds
+2024-06-09 12:56:00.388 [info] Python interpreter path: /bin/python
+2024-06-09 12:56:01.811 [info] Starting Pylance language server.

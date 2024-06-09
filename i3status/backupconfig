@@ -1,0 +1,35 @@
+# ~/.config/i3status/config
+
+general {
+  output_format = "i3bar"
+  colors = true
+  interval = 5
+}
+
+order += "tztime local"
+order += "exec network"
+order += "memory"
+order += "battery"
+order += "tztime local"
+
+tztime local {
+  format = "%Y-%m-%d %H:%M:%S"
+}
+
+exec network {
+  # Path to the custom network status script
+  command = "~/.config/i3status/get_network_status.sh"
+  interval = 10
+}
+
+memory {
+  format = "RAM: %used/%total"
+  threshold_degraded = "1G"
+  format_degraded = "MEMORY %used/%total"
+}
+
+battery {
+  format = "Battery: %status %percentage %remaining"
+  format_down = "No battery"
+  last_full_capacity = true
+}

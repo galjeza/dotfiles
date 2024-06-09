@@ -4,9 +4,7 @@
         "workspaces": {
             "file:///home/galjeza/Downloads": "__default__profile__"
         },
-        "emptyWindows": {
-            "1717710307581": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
@@ -19,11 +17,7 @@
                 "folderUri": "file:///home/galjeza/Downloads"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1717710307581"
-            }
-        ]
+        "emptyWindows": []
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -135,6 +129,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -678,13 +679,6 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Split in &&Group"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -784,7 +778,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     }
                 ]
             },
@@ -801,7 +796,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1682,27 +1678,26 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1d1d1d",
+    "themeBackground": "#1b1e28",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#1d1d1d",
-            "editorBackground": "#1d1d1d",
-            "titleBarBackground": "#303030",
-            "activityBarBackground": "#303030",
-            "sideBarBackground": "#242424",
-            "statusBarBackground": "#242424",
-            "statusBarNoFolderBackground": "#242424",
-            "windowBorder": "#454545"
+            "foreground": "#a6accd",
+            "background": "#1b1e28",
+            "editorBackground": "#1b1e28",
+            "titleBarBackground": "#1b1e28",
+            "activityBarBackground": "#1b1e28",
+            "sideBarBackground": "#1b1e28",
+            "statusBarBackground": "#1b1e28",
+            "statusBarNoFolderBackground": "#1b1e28"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 285,
+            "sideBarWidth": 203,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -1713,10 +1708,10 @@
             "backupPath": "/home/galjeza/.config/Code/Backups/85ac6a8206c1dbc7c000ab3722c7f8e5",
             "uiState": {
                 "mode": 1,
-                "x": 2295,
-                "y": 20,
-                "width": 1143,
-                "height": 1396
+                "x": 2,
+                "y": 2,
+                "width": 1916,
+                "height": 1050
             }
         },
         "openedWindows": []

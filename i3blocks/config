@@ -1,0 +1,43 @@
+# ~/.config/i3blocks/config
+
+[time]
+command=date '+%Y-%m-%d %H:%M'
+interval=1
+signal=1
+color=#f8f8f2
+
+[network]
+command=~/.config/i3blocks/get_network_status.sh
+interval=10
+signal=2
+color=#8be9fd
+
+[memory]
+command=free -h | awk '/^Mem:/ {print "RAM: " $3 "/" $2}'
+interval=10
+signal=3
+color=#50fa7b
+
+[battery]
+command=acpi -b | awk '{print "Battery: " $4}' | sed 's/,//'
+interval=30
+signal=4
+color=#f1fa8c
+
+[cpu_usage]
+command=sar -u 1 1 | awk '/Average:/ {print "CPU: " 100 - $8 "%"}'
+interval=10
+signal=5
+color=#ffb86c
+
+[cpu_temperature]
+command=sensors | awk '/^Package id 0:/ {print "Kavica: " $4}'
+interval=10
+signal=6
+color=#ff79c6
+
+[disk]
+command=df -h / | awk 'NR==2 {print "Disk: " $4 "/" $2}'
+interval=60
+signal=7
+color=#bd93f9

@@ -1,2 +1,3 @@
-2024/06/06-23:45:06.621 739b Creating DB /home/galjeza/.config/Code/Local Storage/leveldb since it was missing.
-2024/06/06-23:45:06.625 739b Reusing MANIFEST /home/galjeza/.config/Code/Local Storage/leveldb/MANIFEST-000001
+2024/06/09-12:55:23.665 259f Reusing MANIFEST /home/galjeza/.config/Code/Local Storage/leveldb/MANIFEST-000001
+2024/06/09-12:55:23.667 259f Recovering log #3
+2024/06/09-12:55:23.667 259f Reusing old log /home/galjeza/.config/Code/Local Storage/leveldb/000003.log 
