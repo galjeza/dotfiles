@@ -1,0 +1,32 @@
+2024-06-10 10:33:09.729 [info] Log level: Info
+2024-06-10 10:33:09.729 [info] Validating found git in: "git"
+2024-06-10 10:33:09.729 [info] Using git "2.45.2" from "git"
+2024-06-10 10:33:09.729 [info] > git rev-parse --show-toplevel [10ms]
+2024-06-10 10:33:09.729 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-06-10 10:33:09.729 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-10 10:33:09.729 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-06-10 10:33:09.737 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-10 10:33:09.737 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-06-10 10:33:09.746 [info] > git rev-parse --show-toplevel [4ms]
+2024-06-10 10:33:09.755 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-06-10 10:33:09.771 [info] Open repository: /home/galjeza/Downloads/spicetify-cli
+2024-06-10 10:33:09.804 [info] > git config --get commit.template [7ms]
+2024-06-10 10:33:09.812 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-06-10 10:33:09.822 [warning] ENOENT: no such file or directory, open '/home/galjeza/Downloads/spicetify-cli/.git/refs/remotes/origin/main'
+2024-06-10 10:33:09.824 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-06-10 10:33:09.852 [info] > git status -z -uall [21ms]
+2024-06-10 10:33:09.882 [info] > git merge-base refs/heads/main refs/remotes/origin/main [22ms]
+2024-06-10 10:33:09.890 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [3ms]
+2024-06-10 10:33:09.897 [info] > git config --get commit.template [16ms]
+2024-06-10 10:33:09.900 [info] > git diff --name-status -z --diff-filter=ADMR a9041189ad6ff5589e97572b4fd743fbccbeb9fc...refs/remotes/origin/main [3ms]
+2024-06-10 10:33:09.934 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [24ms]
+2024-06-10 10:33:09.951 [warning] ENOENT: no such file or directory, open '/home/galjeza/Downloads/spicetify-cli/.git/refs/remotes/origin/main'
+2024-06-10 10:33:09.953 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-06-10 10:33:09.979 [info] > git status -z -uall [19ms]
+2024-06-10 10:33:10.308 [info] > git check-ignore -v -z --stdin [2ms]
+2024-06-10 10:33:10.528 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-10 10:33:10.528 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

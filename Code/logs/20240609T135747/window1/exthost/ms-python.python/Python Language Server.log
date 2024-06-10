@@ -1,0 +1,18 @@
+2024-06-09 13:57:50.954 [info] (Client) Pylance async client (2024.6.1) started with python extension (2024.8.0)
+2024-06-09 13:57:51.873 [info] [Info  - 1:57:51 PM] (33996) Pylance language server 2024.6.1 (pyright version 1.1.364, commit 0618acc5) starting
+2024-06-09 13:57:51.874 [info] [Info  - 1:57:51 PM] (33996) Server root directory: file:///home/galjeza/.vscode/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-06-09 13:57:51.878 [info] [Info  - 1:57:51 PM] (33996) Starting service instance "Downloads"
+2024-06-09 13:57:51.915 [info] Auto-Indent enabled
+2024-06-09 13:57:51.934 [info] Auto-Indent enabled
+2024-06-09 13:57:51.936 [info] [Info  - 1:57:51 PM] (33996) Setting pythonPath for service "Downloads": "/bin/python"
+2024-06-09 13:57:51.936 [info] [Info  - 1:57:51 PM] (33996) Setting environmentName for service "Downloads": "3.12.3 (global)"
+2024-06-09 13:57:51.990 [info] [Info  - 1:57:51 PM] (33996) Assuming Python version 3.12.3.final.0
+2024-06-09 13:57:52.198 [info] [Info  - 1:57:52 PM] (33996) No source files found.
+2024-06-09 13:57:52.202 [info] Auto-Indent enabled
+2024-06-09 13:57:52.769 [info] [Info  - 1:57:52 PM] (33996) Background analysis(1) root directory: file:///home/galjeza/.vscode/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-06-09 13:57:52.773 [info] [Info  - 1:57:52 PM] (33996) Background analysis(1) started
+2024-06-09 13:57:53.148 [info] [Info  - 1:57:53 PM] (33996) Indexer background runner(2) root directory: file:///home/galjeza/.vscode/extensions/ms-python.vscode-pylance-2024.6.1/dist (index)
+2024-06-09 13:57:53.148 [info] [Info  - 1:57:53 PM] (33996) Indexing(2) started
+2024-06-09 13:57:53.744 [info] [Info  - 1:57:53 PM] (33996) scanned(2) 94 files over 1 exec env
+2024-06-09 13:57:54.042 [info] [Info  - 1:57:54 PM] (33996) indexed(2) 40 files over 1 exec env
+2024-06-09 13:57:54.096 [info] [Info  - 1:57:54 PM] (33996) Indexing finished(2).

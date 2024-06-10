@@ -4,7 +4,9 @@
         "workspaces": {
             "file:///home/galjeza/Downloads": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1717934365631": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
@@ -679,6 +681,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -755,6 +764,10 @@
                         "label": "E&&xtensions"
                     },
                     {
+                        "id": "workbench.view.extension.test",
+                        "label": "T&&esting"
+                    },
+                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -778,8 +791,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -787,7 +799,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1708,10 +1721,10 @@
             "backupPath": "/home/galjeza/.config/Code/Backups/85ac6a8206c1dbc7c000ab3722c7f8e5",
             "uiState": {
                 "mode": 1,
-                "x": 2,
-                "y": 2,
-                "width": 1916,
-                "height": 1050
+                "x": 22,
+                "y": 22,
+                "width": 1876,
+                "height": 498
             }
         },
         "openedWindows": []
