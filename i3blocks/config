@@ -1,7 +1,7 @@
 # ~/.config/i3blocks/config
 
 [time]
-command=date '+%Y-%m-%d %H:%M'
+command=date '+%Y-%d-%m %H:%M'
 interval=1
 signal=1
 color=#f8f8f2
@@ -19,7 +19,7 @@ signal=3
 color=#50fa7b
 
 [battery]
-command=acpi -b | awk '{print "Battery: " $4}' | sed 's/,//'
+command=acpi -b | awk '{print "Kurčina: " $4}' | sed 's/,//'
 interval=30
 signal=4
 color=#f1fa8c
@@ -37,7 +37,7 @@ signal=6
 color=#ff79c6
 
 [disk]
-command=df -h / | awk 'NR==2 {print "Disk: " $4 "/" $2}'
+command=df -h / | awk 'NR==2 {print "Porniči: " $4 "/" $2}'
 interval=60
 signal=7
 color=#bd93f9
