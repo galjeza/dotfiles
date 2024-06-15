@@ -2,11 +2,11 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/galjeza/Downloads": "__default__profile__"
+            "file:///home/galjeza/Downloads": "__default__profile__",
+            "file:///home/galjeza/Work/lime-booking": "__default__profile__",
+            "file:///home/galjeza/Development/typingboi": "__default__profile__"
         },
-        "emptyWindows": {
-            "1717934365631": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
@@ -17,6 +17,9 @@
         "folders": [
             {
                 "folderUri": "file:///home/galjeza/Downloads"
+            },
+            {
+                "folderUri": "file:///home/galjeza/Development/typingboi"
             }
         ],
         "emptyWindows": []
@@ -64,6 +67,28 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/galjeza/Development/typingboi",
+                                        "path": "/home/galjeza/Development/typingboi",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Development/typingboi"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/galjeza/Work/lime-booking",
+                                        "path": "/home/galjeza/Work/lime-booking",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Work/lime-booking"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -121,7 +146,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -131,13 +157,6 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -484,7 +503,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "toggle.toggleCustomTitleBar",
@@ -799,8 +819,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -809,8 +828,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1130,8 +1148,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1717,14 +1734,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/galjeza/Downloads",
-            "backupPath": "/home/galjeza/.config/Code/Backups/85ac6a8206c1dbc7c000ab3722c7f8e5",
+            "folder": "file:///home/galjeza/Development/typingboi",
+            "backupPath": "/home/galjeza/.config/Code/Backups/a5556e2b58c2fd3c135df9e79b3176c4",
             "uiState": {
                 "mode": 1,
-                "x": 22,
-                "y": 22,
-                "width": 1876,
-                "height": 498
+                "x": 1932,
+                "y": 12,
+                "width": 1706,
+                "height": 1390
             }
         },
         "openedWindows": []
