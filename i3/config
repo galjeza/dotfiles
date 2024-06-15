@@ -154,8 +154,8 @@ client.background       #f8f8f2
 # Hide title bars and set borders
 
 # Gaps settings
-gaps inner 0
-gaps outer 10
+gaps inner 15
+gaps outer 15
 smart_gaps on
 default_border none
 default_floating_border pixel 2
